@@ -322,7 +322,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/06/03/项目整理/" itemprop="url">项目整理</a></h1>
+                <a class="post-title-link" href="/2018/06/03/项目整理/" itemprop="url">将博客同时部署到 coding 和 github</a></h1>
         
 
         <div class="post-meta">
@@ -345,6 +345,28 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/博客/" itemprop="url" rel="index">
+                    <span itemprop="name">博客</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -366,7 +388,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  10
+                  54
                 </span>
               
 
@@ -405,9 +427,14 @@
       
         
           
-          闲来无事梳理梳理项目
-
-          
+          ###首先呢
+先在站点配置文件配置 github 和 coding 的地址
+deploy:
+      type: git
+      repo: 
+        github: https://github.com/yipl95/yipl95.github.io.git
+        codi
+          ...
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2018/06/03/项目整理/#more" rel="contents">

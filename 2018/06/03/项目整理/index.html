@@ -83,7 +83,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="hexo," />
 
 
 
@@ -94,17 +94,18 @@
 
 
 
-<meta name="description" content="闲来无事梳理梳理项目">
+<meta name="description" content="###首先呢 先在站点配置文件配置 github 和 coding 的地址 deploy:       type: git       repo:          github: https://github.com/yipl95/yipl95.github.io.git         coding: https://gitee.com/yipeilin/yipeilin.git     br">
+<meta name="keywords" content="hexo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="项目整理">
+<meta property="og:title" content="将博客同时部署到 coding 和 github">
 <meta property="og:url" content="http://yoursite.com/2018/06/03/项目整理/index.html">
 <meta property="og:site_name" content="易培林">
-<meta property="og:description" content="闲来无事梳理梳理项目">
+<meta property="og:description" content="###首先呢 先在站点配置文件配置 github 和 coding 的地址 deploy:       type: git       repo:          github: https://github.com/yipl95/yipl95.github.io.git         coding: https://gitee.com/yipeilin/yipeilin.git     br">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-06-03T08:03:44.499Z">
+<meta property="og:updated_time" content="2018-06-03T09:55:44.395Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="项目整理">
-<meta name="twitter:description" content="闲来无事梳理梳理项目">
+<meta name="twitter:title" content="将博客同时部署到 coding 和 github">
+<meta name="twitter:description" content="###首先呢 先在站点配置文件配置 github 和 coding 的地址 deploy:       type: git       repo:          github: https://github.com/yipl95/yipl95.github.io.git         coding: https://gitee.com/yipeilin/yipeilin.git     br">
 
 
 
@@ -140,7 +141,7 @@
 
 
 
-  <title>项目整理 | 易培林</title>
+  <title>将博客同时部署到 coding 和 github | 易培林</title>
   
 
 
@@ -320,7 +321,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">项目整理</h1>
+          <h1 class="post-title" itemprop="name headline">将博客同时部署到 coding 和 github</h1>
         
 
         <div class="post-meta">
@@ -343,6 +344,28 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/博客/" itemprop="url" rel="index">
+                    <span itemprop="name">博客</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -364,7 +387,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  10
+                  54
                 </span>
               
 
@@ -401,8 +424,17 @@
       
 
       
-        <p>闲来无事梳理梳理项目</p>
-
+        <p>###首先呢</p>
+<p>先在站点配置文件配置 github 和 coding 的地址</p>
+<pre><code>deploy:
+      type: git
+      repo: 
+        github: https://github.com/yipl95/yipl95.github.io.git
+        coding: https://gitee.com/yipeilin/yipeilin.git
+    branch: master
+</code></pre><p>然后在根目录一句代码：</p>
+<pre><code>hexo deploy -g
+</code></pre>
       
     </div>
     
@@ -455,6 +487,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i> hexo</a>
+          
+        </div>
       
 
       
