@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title><![CDATA[将博客同时部署到 coding 和 github]]></title>
-    <url>%2F2018%2F06%2F03%2F%E9%A1%B9%E7%9B%AE%E6%95%B4%E7%90%86%2F</url>
+    <url>%2F2018%2F06%2F03%2Fdeploy%2F</url>
     <content type="text"><![CDATA[###首先呢 先在站点配置文件配置 github 和 coding 的地址 deploy: type: git repo: github: https://github.com/yipl95/yipl95.github.io.git coding: https://gitee.com/yipeilin/yipeilin.git branch: master 然后在根目录一句代码： hexo deploy -g]]></content>
       <categories>
         <category>博客</category>
